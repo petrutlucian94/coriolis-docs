@@ -22,7 +22,7 @@ After thoroughly evaluating migration solutions, **Coriolis** emerged as the cle
 <img class="partner-logos-banner" src="../_static/images/coriolis_customers_2024.png?v=2" alt="Coriolis customers">
 <div class="partner-logos-row">
 <img src="../_static/images/sivali.png" alt="Sivali Cloud Technology">
-<img src="../_static/images/vhi-128.svg" alt="Virtuozzo">
+<img class="logo-light" src="../_static/images/vhi-128.svg" alt="Virtuozzo"><img class="logo-dark" src="../_static/images/vhi-128-dark.svg" alt="">
 <img src="../_static/images/66ec6956cb6658555fd52a17_Cloud-Logo-Blue-1.svg" alt="Cloud">
 </div>
 </div>

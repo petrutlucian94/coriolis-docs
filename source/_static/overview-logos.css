@@ -96,9 +96,10 @@
 }
 
 .platform img {
-  width: 55px;
-  height: 55px;
-  flex: 0 0 55px;
+  width: auto;
+  height: 46px;
+  max-width: 140px;
+  flex: 0 0 auto;
   object-fit: contain;
 }
 
@@ -175,9 +176,10 @@ article.yue img.align-center {
 
 article.yue .platform img {
   display: block;
-  width: 55px;
-  height: 55px;
-  flex: 0 0 55px;
+  width: auto;
+  height: 46px;
+  max-width: 140px;
+  flex: 0 0 auto;
   margin: 0;
   object-fit: contain;
 }
@@ -236,4 +238,17 @@ article.yue .icon-legend img {
   height: 1.15em;
   margin: 0 0.35rem 0 0;
   vertical-align: -0.2em;
+}
+
+/* Light artwork stays on a light page. html.dark / html.light come from the theme toggle. */
+img.logo-dark {
+  display: none !important;
+}
+
+html.dark img.logo-light {
+  display: none !important;
+}
+
+html.dark img.logo-dark {
+  display: block !important;
 }
